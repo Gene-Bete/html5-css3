@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astronauta</title>
+</head>
+<style>
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #000;
+}
+.q1{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    /* overflow: hidden; */
+}
+.q2{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: 0;
+}
+.q3{
+
+    position: absolute;
+    right: 10%;
+    top:-10%;
+    transform: translate(-50%,50%);
+
+    animation: flutuar 4s infinite ease-in-out;
+    z-index: 9999999;
+}
+
+</style>
+<body>
+    <div class="q1" >
+        <img src="imagens/astronauta (1).png" alt="Astronauta" class="q3">
+        <img src="imagens/espaco (1).jpg" alt="fundo espacial" class="q2">
+     
+    </div>
+    
+</body>
+</html>
